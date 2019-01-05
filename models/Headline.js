@@ -8,18 +8,18 @@ var Schema = mongoose.Schema;
 
 //Create the headlines with our schema class
 var headlineSchema = new Schema({
-    //headline, a string, must be entered
+    //headline, a string
     headline: {
         type: String,
         required: true,
         unique: { index: { unique: true } }
     },
-    //summary, a string, must be entered
+    //summary, a string
     summary: {
         type: String,
         required: true
     },
-    //url, a string, must be entered
+    //url, a string
     url: {
         type: String,
         required: true

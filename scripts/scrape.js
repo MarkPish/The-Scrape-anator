@@ -13,8 +13,7 @@ var scrape = function() {
         var articles = [];
 
         //Find and loop thru each element that has the "theme-summary" class
-        // i.e. the section holding the articles
-        $(".theme-summary").each(function(i, element) {
+                $(".theme-summary").each(function(i, element) {
             //in each .theme-summary, we grab the child with the class story-heading
             //then we grab the inner text of this element and store it
             //to the head variable...the article headline...ta da!
